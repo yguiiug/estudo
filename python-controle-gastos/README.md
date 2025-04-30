@@ -12,7 +12,7 @@ Projeto simples para controle mensal de gastos utilizando Python (`openpyxl`) e 
 ## Como usar
 
 1. Edite a planilha `ControleGastos.xlsx` com os nomes dos meses e categorias desejadas.
-2. Execute o script `controle_gastos.py` e preencha os dados solicitados.
+2. Execute o script `python.py` e preencha os dados solicitados.
 3. Veja os resultados diretamente na planilha.
 
 ---
