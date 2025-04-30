@@ -17,10 +17,6 @@ Este é um projeto em C# que implementa uma **calculadora simples** capaz de rea
 
 Digite o primeiro número: 5 Digite o segundo número: 3 Escolha a operação (+, -, *, /): + Resultado: 8
 
-markdown
-Copiar
-Editar
-
 ## Funcionalidades
 
 - Suporte para as 4 operações matemáticas básicas.
