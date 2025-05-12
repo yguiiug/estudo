@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contador de Letras</title>
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #f0f0f0;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #0e6dfd;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0a53c1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contador de Letras</h1>
+    <form method="post">
+        <input type="text" name="frase" placeholder="Digite uma frase aqui">
+        <button type="submit">Analisar</button>
+    </form>
+
+    {% if resultado_vogais %}
+    <h2>Resultado:</h2>
+    <p>{{ resultado_vogais }}</p>
+    <p>{{ resultado_consoantes }}</p>
+    <p>{{ resultado_outros }}</p>
+    {% endif %}
+</body>
+</html>
