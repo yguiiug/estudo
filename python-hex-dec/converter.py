@@ -1,3 +1,10 @@
+import os
+
+from minha_biblioteca import limpa
+
+limpa()
+
+
 dec = int(input("Digite um número decimal: "))
 
 def decimal_pra_hexadecimal(numero):
